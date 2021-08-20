@@ -26,3 +26,20 @@ def average_of_three(num1, num2, num3):
 
 def goodbye(name):
     print("Good bye "+name)     
+
+
+print('palindrome method here:')
+is_palindrome("mummum")
+print("\n")
+print("doubler method here:")
+list1 = [1, 2, 3, 4, 5]
+doubler(list1)
+print("\n")
+print('fizz_buzz method here:')
+fizz_buzz(20)
+print("\n")
+print("average_of_3 method here:")
+average_of_three(13,14,15)
+print("\n")
+print('goodbye method here:')
+goodbye('Nonny Mahao')
