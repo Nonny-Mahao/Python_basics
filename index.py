@@ -13,12 +13,11 @@ def doubler(numbers):
 
 def fizz_buzz(max):
     result = []
-    for i in range(max):
-        if(i != 0):
-            if(i % 4 == 0 or i % 6 == 0):
-                if(i % 4 == 0 and i % 6 == 0):
-                    continue   
-                result.append(i)
+    for i in range(1,max):
+        if(i % 4 == 0 or i % 6 == 0):
+            if(i % 4 == 0 and i % 6 == 0):
+                continue   
+            result.append(i)
     print(result)    
 
 def average_of_three(num1, num2, num3):
@@ -30,16 +29,16 @@ def goodbye(name):
 
 print('palindrome method here:')
 is_palindrome("mummum")
-print("\n")
+print(" ")
 print("doubler method here:")
 list1 = [1, 2, 3, 4, 5]
 doubler(list1)
-print("\n")
+print(" ")
 print('fizz_buzz method here:')
-fizz_buzz(20)
-print("\n")
+fizz_buzz(60)
+print(" ")
 print("average_of_3 method here:")
 average_of_three(13,14,15)
-print("\n")
+print(" ")
 print('goodbye method here:')
 goodbye('Nonny Mahao')
