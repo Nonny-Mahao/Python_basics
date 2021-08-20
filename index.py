@@ -20,3 +20,6 @@ def fizz_buzz(max):
                     continue   
                 result.append(i)
     print(result)    
+
+def average_of_three(num1, num2, num3):
+    print((num1+num2+num3)//3)    
