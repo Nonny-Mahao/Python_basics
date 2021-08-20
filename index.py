@@ -4,3 +4,9 @@ def is_palindrome(word):
         print(True)
     else:
         print(False)
+
+def doubler(numbers):
+    multiply = []
+    for i in range(len(numbers)):
+        multiply.append(numbers[i]*2)
+    print(multiply)
