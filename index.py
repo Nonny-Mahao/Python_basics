@@ -23,3 +23,6 @@ def fizz_buzz(max):
 
 def average_of_three(num1, num2, num3):
     print((num1+num2+num3)//3)    
+
+def goodbye(name):
+    print("Good bye "+name)     
